@@ -15,5 +15,4 @@ function maxProfit(prices) {
     return maxProfit;
 }
 ;
-maxProfit([1, 2, 1, 4]);
-//# sourceMappingURL=app.js.map
+//# sourceMappingURL=best-time-to-buy-&-sell-stock.js.map
