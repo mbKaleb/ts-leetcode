@@ -12,5 +12,4 @@ function groupAnagrams(strs) {
     return answerArray;
 }
 ;
-groupAnagrams(["eat", "tea", "tan", "ate", "nat", "bat"]);
-//# sourceMappingURL=app.js.map
+//# sourceMappingURL=group-anagrams.js.map
