@@ -1,5 +1,4 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 function reverseList(head) {
     if (head === null) {
         return head;
@@ -14,4 +13,4 @@ function reverseList(head) {
     }
     return prev;
 }
-//# sourceMappingURL=reverser-linked-list.js.map
+//# sourceMappingURL=reverse-linked-list.js.map
