@@ -1,2 +1,3 @@
 # ts-leetcode
-My leet code solutions in TypeScript
+
+## My leet code solutions in TypeScript
