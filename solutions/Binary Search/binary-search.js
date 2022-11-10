@@ -1,9 +1,8 @@
-"use strict";
 function search(nums, target) {
-    let a = -1;
-    let b = nums.length;
+    var a = -1;
+    var b = nums.length;
     while (a + 1 < b) {
-        let c = Math.floor((a + b) / 2);
+        var c = Math.floor((a + b) / 2);
         if (nums[c] === target)
             return c;
         else if (nums[c] < target)
@@ -13,4 +12,3 @@ function search(nums, target) {
     }
     return -1;
 }
-//# sourceMappingURL=binary-search.js.map

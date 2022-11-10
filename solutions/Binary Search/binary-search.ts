@@ -1,4 +1,5 @@
 function search(nums: number[], target: number): number {
+
     let a: number = -1;
     let b: number = nums.length;
 

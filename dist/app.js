@@ -1,14 +1,15 @@
 "use strict";
 console.log('connected');
-class ListNode {
-    constructor(val, next) {
-        this.val = val === undefined ? 0 : val;
-        this.next = next === undefined ? null : next;
-    }
-}
-let TL1 = new ListNode(1, new ListNode(2, new ListNode(4)));
-let TL2 = new ListNode(3, new ListNode(3));
-console.log(TL1);
-console.log(TL2);
-mergeTwoLists(TL1, TL2);
+// function diameterOfBinaryTree(root: TreeNode | null): number {
+//     let res = 0
+//     function dfs(root:TreeNode) {
+//         if (!root) {return -1};
+//         let left:number = dfs(root.left);
+//         let right:number = dfs(root.right);
+//         res = Math.max(res, 2 + left + right)
+//         return 1 + Math.max(left, right)
+//     }
+//     dfs(root)
+//     return res
+// };
 //# sourceMappingURL=app.js.map
