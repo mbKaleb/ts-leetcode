@@ -12,4 +12,4 @@ function diameterOfBinaryTree(root: TreeNode | null): number {
     }
     dfs(root)
     return res
-// };
+};
